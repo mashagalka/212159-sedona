@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="21" viewBox="0 0 23 21">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <image id="like-icon.svg" class="cls-1" width="23" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAVCAMAAACaPIWZAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAM1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjBUbJAAAAEHRSTlMAHT8FTTA6NSIOEytIGEMnMQ2gRgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAB3SURBVBjTbdFRDoAgDAPQARUQEe9/W1lQWaT9IOFlJGwTMXE+CIkDNs6InJEYeyAz3oFCOPTjX64sB55Up6JVQP95xJfp/VF5krXK+JvyqzefoO617dV7GyfzDU2IhzGNxS/UwLyNJczuvuzTk+GxM23czGDcRG4ocgQ0PaQaLwAAAABJRU5ErkJggg=="/>
+</svg>

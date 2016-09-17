@@ -3,30 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Седона - Фото</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
-    <div class="page-header__logo">
-      <img src="img/logotyle-mobile.svg" alt="City of Sedona" width="102" height="83">
-    </div>
-    <nav class="main-nav  main-nav--opened  main-nav--nojs">
-      <button class="main-nav__toggle  main-nav__toggle--opened" type="button">Открыть меню</button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="index.html">Главная</a></li>
-          <li class="main-nav__item main-nav__item--active"><a>Фото и видео</a></li>
-          <li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
-          <li class="main-nav__item"><a href="http://htmlacademy.ru">HTMLacademy</a></li>
-        </ul>
+      <div class="page-header__logo">
+        <img src="img/logotyle-mobile.svg" alt="City of Sedona" width="102" height="83">
       </div>
-    </nav>
-  </header>
+      <nav class="main-nav  main-nav--opened  main-nav--nojs">
+        <button class="main-nav__toggle  main-nav__toggle--opened" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="link  link__nav" href="index.html">Главная</a></li>
+            <li class="main-nav__item  main-nav__item--active"><a class="link  link__nav">Фото и видео</a></li>
+            <li class="main-nav__item"><a class="link  link__nav" href="form.html">Форма отзыва</a></li>
+            <li class="main-nav__item"><a class="link  link__nav" href="http://htmlacademy.ru">HTMLacademy</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   <section class="intro">
       <h2 class="intro__heading  visually-hidden">Добро пожаловать в Седону!</h2>
-      <div class="intro__picture">
-        <img src="img/back-mobile.jpg" alt="Sedona" width="320" height="158">
+      <div class="intro__picture  intro__picture--small">
         <img src="img/intro-triangle.svg" alt="" width="320" height="27">
-        <p class="intro__pic-text">Sedona</p>
+        <img class="intro__pic-text">
       </div>
       <div class="intro__description  intro__description--white-bg">
         <p class="intro__title  intro__title--black">Фото и видео</p>

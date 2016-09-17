@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -13,10 +14,10 @@
         <button class="main-nav__toggle  main-nav__toggle--opened" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list">
-            <li class="main-nav__item main-nav__item--active"><a>Главная</a></li>
-            <li class="main-nav__item"><a href="photo.html">Фото и видео</a></li>
-            <li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
-            <li class="main-nav__item"><a href="http://htmlacademy.ru">HTMLacademy</a></li>
+            <li class="main-nav__item  main-nav__item--active"><a class="link  link__nav">Главная</a></li>
+            <li class="main-nav__item"><a class="link  link__nav" href="photo.html">Фото и видео</a></li>
+            <li class="main-nav__item"><a class="link  link__nav" href="form.html">Форма отзыва</a></li>
+            <li class="main-nav__item"><a class="link  link__nav" href="http://htmlacademy.ru">HTMLacademy</a></li>
           </ul>
         </div>
       </nav>
@@ -36,22 +37,22 @@
       <div class="fact">
         <div class="fact__description  fact__description--blue-bg">
           <p class="fact__title  fact__title--white">НАСТОЯЩИЙ ГОРОДОК</p>
-          <p class="fact__number fact__number--white">— №1 —</p>
+          <p class="fact__number  fact__number--white">— №1 —</p>
           <p class="fact__text  fact__text--white">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
         </div>
         <img src="img/photo-city@1x.png" alt="Седона" class="fact__photo" width="320" height="260">
         <div class="fact__pluses">
-          <div class="fact__plus plus">
+          <div class="fact__plus  plus">
             <img src="img/icon_house.svg" alt="Жилье" class="plus__icon" width="39" height="37">
             <p class="plus__title">Жилье</p>
             <p class="plus__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </div>
-          <div class="fact__plus plus">
+          <div class="fact__plus  plus">
             <img src="img/icon_gift.svg" alt="Сувениры" class="plus__icon" width="32" height="38">
             <p class="plus__title">Сувениры</p>
             <p class="plus__text">Не только китайского, но и местного производства!</p>
           </div>
-          <div class="fact__plus plus">
+          <div class="fact__plus  plus">
             <img src="img/icon_burger.svg" alt="ЕДА" class="plus__icon" width="39" height="37">
             <p class="plus__title">ЕДА</p>
             <p class="plus__text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
@@ -62,7 +63,7 @@
       <div class="fact">
         <div class="fact__description  fact__description--blue-bg">
           <p class="fact__title  fact__title--white">ТАМ ЕСТЬ Мост дьявола</p>
-          <p class="fact__number fact__number--white">— №1 —</p>
+          <p class="fact__number  fact__number--white">— №1 —</p>
           <p class="fact__text  fact__text--white">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
         <img src="img/photo-bridge@1x.png" alt="Седона" class="fact__photo" width="320" height="260">
@@ -70,21 +71,21 @@
       <div class="fact">
         <div class="fact__description  fact__description--grey-bg">
           <p class="fact__title  fact__title--black">НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
-          <p class="fact__number fact__number--black">— №3 —</p>
+          <p class="fact__number  fact__number--black">— №3 —</p>
           <p class="fact__text  fact__text--black">ВСЕ достопримечательности находятся очень близко</p>
         </div>
       </div>
       <div class="fact">
         <div class="fact__description  fact__description--grey-bg">
           <p class="fact__title  fact__title--black">КРАСИВАЯ ДОРОГА</p>
-          <p class="fact__number fact__number--black">— №4 —</p>
+          <p class="fact__number  fact__number--black">— №4 —</p>
           <p class="fact__text  fact__text--black">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
         </div>
       </div>
       <div class="fact">
         <div class="fact__description  fact__description--grey-bg">
           <p class="fact__title  fact__title--black">МАЛО ТУРИСТОВ</p>
-          <p class="fact__number fact__number--black">— №5 —</p>
+          <p class="fact__number  fact__number--black">— №5 —</p>
           <p class="fact__text  fact__text--black">Большинство едет в гранд каньон и толпится там</p>
         </div>
       </div>
@@ -93,7 +94,7 @@
       <h2 class="booking__heading  visually-hidden">Поиск гостиницы в Седоне</h2>
       <p class="booking__title">ЗАИНТЕРЕСОВАЛИСЬ?</p>
       <p class="booking__text">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <a href="" class="booking__button">НАЙТИ гостиницу</a>
+      <a href="" class="booking__button  link">НАЙТИ гостиницу</a>
     </section>
     <section class="map">
       <h2 class="map__heading  visually-hidden">Карта Седона</h2>
